@@ -1,0 +1,9 @@
+@use "../styles/variables.scss";
+
+.container {
+  margin: 0 auto;
+  flex: 1;
+  .content {
+    margin: 1rem 0;
+  }
+}
