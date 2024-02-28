@@ -1,0 +1,40 @@
+.footer {
+  justify-self: flex-end;
+  bottom: 0;
+  background-color: var(--color-brown);
+
+  .top_section {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    .quick_links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      align-items: center;
+      list-style: none;
+      a {
+        text-decoration: none;
+      }
+    }
+    .input_box {
+      border: 2px solid var(--color-yellow);
+      padding: 0.5rem;
+      label {
+        color: var(--color-yellow);
+      }
+      input {
+        background: none;
+        width: 30vw;
+      }
+    }
+  }
+  .bottom_section {
+    padding: 2rem;
+    max-width: var(--container-width);
+  }
+}

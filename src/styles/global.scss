@@ -1,0 +1,30 @@
+html,
+body,
+.app {
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-yellow: #d3a92b;
+  --color-brown: #484646;
+  --container-width: 1200px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  font-family: "Assistant", sans-serif;
+  color: var(--color-yellow);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:is(body, h1, h2, h3, h4, h5, h6, ul, li, a, svg, input) {
+  color: var(--color-yellow);
+}
